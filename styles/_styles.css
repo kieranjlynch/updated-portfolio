@@ -10,7 +10,7 @@ body .header {
   background-color: #6858c4;
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
   color: #f2f5ff;
 }
 body .header ul {
@@ -28,7 +28,7 @@ body .header li a {
 }
 body .header li a:hover,
 body .header .menu-btn:hover {
-  background-color: #f2f5ff;
+  background-color: #6858c4;
 }
 body .header .logo {
   display: block;
@@ -36,6 +36,7 @@ body .header .logo {
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 body .header .menu {
   clear: both;
@@ -44,6 +45,7 @@ body .header .menu {
 }
 body .header .menu a {
   color: #f2f5ff;
+  font-family: "Poppins", sans-serif;
 }
 body .header .menu-icon {
   cursor: pointer;

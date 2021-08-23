@@ -9,7 +9,7 @@ body {
     background-color: #6858c4;
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 1;
     color: #f2f5ff;
   }
   
@@ -30,7 +30,7 @@ body {
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f2f5ff;
+    background-color: #6858c4;
   }
   
   .header .logo {
@@ -39,6 +39,7 @@ body {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
   }
   
   /* menu */
@@ -50,6 +51,7 @@ body {
 
     a {
       color: #f2f5ff;
+      font-family: 'Poppins', sans-serif;
     }
   }
   
