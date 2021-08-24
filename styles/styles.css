@@ -1,14 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 body {
   background-color: #1f1f26;
+  margin: 0;
   /* header */
   /* menu */
   /* menu icon */
   /* menu btn */
 }
+body h3 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 6vw;
+  color: #f2f5ff;
+}
+body li {
+  text-decoration: none;
+  margin-left: 6vw;
+}
 body .header {
   background-color: #6858c4;
-  position: fixed;
   width: 100%;
   z-index: 1;
   color: #f2f5ff;
@@ -19,6 +28,7 @@ body .header ul {
   list-style: none;
   overflow: hidden;
   background-color: #6858c4;
+  text-decoration: none;
 }
 body .header li a {
   display: block;
@@ -29,6 +39,7 @@ body .header li a {
 body .header li a:hover,
 body .header .menu-btn:hover {
   background-color: #6858c4;
+  text-decoration: none;
 }
 body .header .logo {
   display: block;
@@ -97,91 +108,13 @@ body .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 body .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-body .grid__container .work__title {
-  font-family: "Poppins", sans-serif;
-  margin-left: 6vw;
-  margin-top: 15vh;
-  color: #f2f5ff;
-}
 body .grid__container .projects__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   margin-left: 6vw;
-}
-body .grid__container .projects__grid .div1 {
-  grid-area: 1/1/2/2;
-}
-body .grid__container .projects__grid .div2 {
-  grid-area: 1/1/2/2;
-}
-body .grid__container .projects__grid .div3 {
-  grid-area: 1/1/2/2;
-}
-body .grid__container .projects__grid .div4 {
-  grid-area: 1/2/2/3;
-}
-body .grid__container .projects__grid .div5 {
-  grid-area: 2/1/3/2;
-}
-body .grid__container .projects__grid .div6 {
-  grid-area: 2/1/3/2;
-}
-body .grid__container .projects__grid .div7 {
-  grid-area: 2/1/3/2;
-}
-body .grid__container .projects__grid .div8 {
-  grid-area: 2/2/3/3;
-}
-body .grid__container .projects__grid .div9 {
-  grid-area: 3/1/4/2;
-}
-body .grid__container .projects__grid .div10 {
-  grid-area: 3/1/4/2;
-}
-body .grid__container .projects__grid .div11 {
-  grid-area: 3/1/4/2;
-}
-body .grid__container .projects__grid .div12 {
-  grid-area: 3/2/4/3;
-}
-body .grid__container .projects__grid .div13 {
-  grid-area: 4/1/5/2;
-}
-body .grid__container .projects__grid .div14 {
-  grid-area: 4/1/5/2;
-}
-body .grid__container .projects__grid .div15 {
-  grid-area: 4/1/5/2;
-}
-body .grid__container .projects__grid .div16 {
-  grid-area: 4/2/5/3;
-}
-body .grid__container .projects__grid .div17 {
-  grid-area: 5/1/6/2;
-}
-body .grid__container .projects__grid .div18 {
-  grid-area: 5/1/6/2;
-}
-body .grid__container .projects__grid .div19 {
-  grid-area: 5/1/6/2;
-}
-body .grid__container .projects__grid .div20 {
-  grid-area: 5/2/6/3;
-}
-body .grid__container .projects__grid .div21 {
-  grid-area: 6/1/7/2;
-}
-body .grid__container .projects__grid .div22 {
-  grid-area: 6/1/7/2;
-}
-body .grid__container .projects__grid .div23 {
-  grid-area: 6/1/7/2;
-}
-body .grid__container .projects__grid .div24 {
-  grid-area: 6/2/7/3;
 }
 body .grid__container .projects__grid .project__desc {
   font-family: "Poppins", sans-serif;
@@ -191,11 +124,6 @@ body .grid__container .projects__grid .repo {
   font-family: "Poppins", sans-serif;
   color: #f2f5ff;
 }
-body section .skills__title {
-  font-family: "Poppins", sans-serif;
-  margin-left: 6vw;
-  color: #f2f5ff;
-}
 body section .skills__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -203,7 +131,7 @@ body section .skills__grid {
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   margin-left: 6vw;
-  margin-bottom: 8vh;
+  margin-bottom: 10vh;
 }
 body section .skills__grid .skills__desc {
   font-family: "Poppins", sans-serif;
@@ -246,80 +174,4 @@ body footer .footer__imagecontainer .mid__image {
   width: 25px;
   margin-left: 15px;
   margin-right: 15px;
-}
-
-@media screen and (min-width: 768px) {
-  section .work__title {
-    font-family: "Poppins", sans-serif;
-    margin-left: 6vw;
-    margin-top: 45vh;
-  }
-  section .projects__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 6px;
-    grid-row-gap: 6px;
-    margin-left: 12vw;
-  }
-  section .projects__grid .project__desc {
-    font-family: "Poppins", sans-serif;
-  }
-}
-@media screen and (min-width: 1024px) {
-  section .skills__title {
-    font-family: "Poppins", sans-serif;
-    margin-left: 15vw;
-  }
-  section .skills__grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 6px;
-    grid-row-gap: 6px;
-    margin-left: 6vw;
-    margin-bottom: 8vh;
-  }
-  section .skills__grid .skills__desc {
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-  }
-  section .skills__grid .skills__img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  footer {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    background-color: lightgrey;
-    width: 100%;
-    height: 8vh;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-  }
-  footer .footer__imagecontainer {
-    display: flex;
-    height: 8vh;
-    width: 50%;
-    margin-left: 25%;
-    align-items: center;
-    justify-content: center;
-  }
-  footer .footer__imagecontainer .footer__image {
-    height: 45px;
-    width: 45px;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  footer .footer__imagecontainer .mid__image {
-    height: 45px;
-    width: 45px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
 }
