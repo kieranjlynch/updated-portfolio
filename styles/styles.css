@@ -57,6 +57,8 @@ body .header .menu {
 body .header .menu a {
   color: #f2f5ff;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin-bottom: 4vh;
 }
 body .header .menu-icon {
   cursor: pointer;
@@ -107,6 +109,9 @@ body .header .menu-btn:checked ~ .menu-icon .navicon:after {
 body .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 body .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
+}
+body .grid__container {
+  margin-bottom: 10vh;
 }
 body .grid__container .projects__grid {
   display: grid;

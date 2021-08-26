@@ -66,6 +66,8 @@ body {
     a {
       color: #f2f5ff;
       font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+      margin-bottom: 4vh;
     }
   }
   
@@ -135,6 +137,7 @@ body {
   }
 
   .grid__container { 
+    margin-bottom: 10vh;
 
     .projects__grid { 
       display: grid; 
@@ -212,6 +215,10 @@ footer {
         }  
     }
 }
+
+// .cv__title {
+
+// }
 }
 
 @media screen and (min-width: 768px) {
