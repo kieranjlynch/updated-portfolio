@@ -33,9 +33,12 @@ body .header ul {
   overflow: hidden;
   background-color: #6858c4;
   text-decoration: none;
+  position: relative;
+  left: 70%;
 }
 body .header li a {
-  display: block;
+  display: flex;
+  width: 20%;
   padding: 20px 20px;
   border-right: 1px solid #f2f5ff;
   text-decoration: none;
